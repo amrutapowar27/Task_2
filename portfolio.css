@@ -1,0 +1,198 @@
+*{
+  box-sizing:border box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+     margin: 0;
+    font-family: open sans and lato;
+    box-sizing: border-box;
+	line-height: 1.6;
+	color:black;
+   }
+
+.nav {
+    display: flex;
+    flex-flow: coloum wrap;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+   box-shadow: 3px 3px 10px lightslategray;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   bottom: 0;
+   z-index: 1;
+        }
+
+nav a {
+    float: center;        
+    display: block;        
+    color: black;       
+    text-align: center;       
+    padding: 10px 80px;        
+    text-decoration: none;        
+        }
+
+nav a:hover {
+    background-color: pink;
+    color: white;        
+    border-radius: 5px;        
+        }
+
+.submenu{
+    display: flex;
+    flex-flow: row;
+    font-size: 20px;
+    justify-content:space-between;
+        }
+      
+#Home{       
+    background-image:url(home.png);
+    background-size:cover ;
+    font-family: open sans and lato;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height:30vh;
+    padding: 200px 100px ;
+    border: 10px solid #000;
+    }
+
+#Home h1 {
+    color:black;
+    font-size: 50px;
+    padding: 0px 200px 0px 0px;
+    text-align:right;
+    }
+
+#Home p {
+     color: black;
+     font-size: 20px;
+     padding: 10px 240px 0px 0px;
+     text-align: right;
+      }
+
+   
+#About{
+    background-image:url(intro.png);
+    border: 10px solid #000; 
+    background-size:cover ;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height:30vh;
+    color: black;
+    padding: 200px 100px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+     }
+
+#About h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 0;            
+    }
+
+#About p{
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+     }
+
+ #Skills {
+    background-image: url('skills.jpg');
+    border: 10px solid #000; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    color: black;
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;          
+        }
+
+#Skills h2 {
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+        }
+
+#Skills li {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+        }        
+
+#Skills p {
+    font-size: 15px;
+    text-align: left;
+    max-width: 800px; 
+        }
+        
+#Resume{
+   background-image:url(resume.jpg);
+   border: 10px solid #000; 
+   background-size:cover ;
+   background-position:center;
+   background-repeat:no-repeat ;
+   height:30vh;
+   color: white;
+   padding: 200px 100px;
+   text-align: center;
+   font-size: 30px;
+     }
+
+#Projects{
+   background-image:url(project.jpg);
+   background-size:cover ;
+   border: 10px solid #000; 
+   background-position:center;
+   background-repeat:no-repeat ;
+   height:30vh;
+   color: black;
+   padding: 200px 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+    }
+
+#Projects h2{
+    padding: 0;
+    font-size: 30px;
+    text-align: center
+     }
+
+#Projects p{
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+      }
+
+#Contact{
+    background-image:url(contact.jpg);
+    background-size:cover ;
+    border: 10px solid #000; 
+    background-position:center;
+    background-repeat:no-repeat ;
+    height:30vh;
+    color: black;
+    padding: 200px 100px;
+    text-align: center;
+    font-size: 30px;
+      }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+       }
